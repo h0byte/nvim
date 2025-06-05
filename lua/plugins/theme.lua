@@ -9,13 +9,13 @@
 -- * override the configuration of LazyVim plugins
 return {
   -- add gruvbox
-  { "rose-pine/neovim" },
+  { "rebelot/kanagawa.nvim", name = "kanagawa", priority = 1000 },
 
   -- Configure LazyVim to load gruvbox
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "rose-pine",
+      colorscheme = "kanagawa",
     },
   },
 }
